@@ -1,7 +1,7 @@
 # Youtube Downloader
 easy to use youtube downloader
 <p align="center">
-  <img src="materials/GUI_view.png" width="150" title="GUI">
+  <img src="materials/GUI_view.png" width="600" title="GUI">
 </p>
 
 ### How to run

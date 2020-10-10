@@ -53,3 +53,8 @@ Check to create a folder for each URL. With "Folder Name" you can determine the 
 #### Options
 ##### Proxy
 If you want to use a proxy write the address and port here as "proxy-type://address:port". For example, for default TOR, use "socks5://127.0.0.1:9050"
+
+### Add audio to video
+~~~
+ffmpeg -i video.mp4 -i audio.mp4a -c copy -map 0:v:0 -map 1:a:0 output.mp4
+~~~
